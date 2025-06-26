@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "486fef60e44c09a8",
+        "id": "309d62a2152061bb",
         "type": "tabs",
         "children": [
           {
-            "id": "e0e2e275b9c07412",
+            "id": "ae232f50c1e05ed7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0e2e275b9c07412",
+  "active": "ae232f50c1e05ed7",
   "lastOpenFiles": [
     "fetch-only-numbers-from-the-cell.md",
     "remove-text-from-period-to-start.md",
