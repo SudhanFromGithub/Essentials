@@ -11,10 +11,14 @@
             "id": "ae232f50c1e05ed7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "fetch-contents-in-based-on-given-arguments.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "fetch-contents-in-based-on-given-arguments"
             }
           }
         ]
@@ -163,6 +167,7 @@
   },
   "active": "ae232f50c1e05ed7",
   "lastOpenFiles": [
+    "fetch-contents-in-based-on-given-arguments.md",
     "fetch-only-numbers-from-the-cell.md",
     "remove-text-from-period-to-start.md",
     "auto-serial-number.md"
