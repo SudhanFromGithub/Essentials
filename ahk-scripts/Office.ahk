@@ -27,10 +27,10 @@
 
 ; The below script pastes the recently copied contents from the clipboard
 
-; :*:!cb::
-; {
-;     SendText A_Clipboard
-; }
+:*:!cb::
+{
+    SendText A_Clipboard
+}
 
 ; !a::
 ; {
