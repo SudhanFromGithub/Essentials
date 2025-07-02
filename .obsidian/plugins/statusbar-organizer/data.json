@@ -1,0 +1,49 @@
+{
+  "activePreset": "Default",
+  "activeFullscreenPreset": "Default",
+  "separateFullscreenPreset": false,
+  "presets": {
+    "Default": {
+      "plugin-obsidian-vimrc-support;1": {
+        "position": 1,
+        "visible": true
+      },
+      "plugin-backlink;1": {
+        "position": 2,
+        "visible": true
+      },
+      "plugin-editor-status;1": {
+        "position": 3,
+        "visible": true
+      },
+      "plugin-word-count;1": {
+        "position": 4,
+        "visible": true
+      },
+      "plugin-sync;1": {
+        "position": 5,
+        "visible": false
+      },
+      "plugin-obsidian-vimrc-support-vimrc-support-vim-mode;1": {
+        "position": 6,
+        "visible": true
+      },
+      "plugin-obsidian-git-obsidian-git-statusbar-idle-obsidian-git-statusbar-status-obsidian-git-statusbar-message-obsidian-git-statusbar-pull-obsidian-git-statusbar-add-obsidian-git-statusbar-commit-obsidian-git-statusbar-push;1": {
+        "position": 7,
+        "visible": true
+      },
+      "plugin-obsidian-git;1": {
+        "position": 8,
+        "visible": true
+      },
+      "plugin-obsidian-git;2": {
+        "position": 9,
+        "visible": false
+      }
+    }
+  },
+  "presetsOrder": [
+    "Default"
+  ],
+  "version": "2.1.4"
+}

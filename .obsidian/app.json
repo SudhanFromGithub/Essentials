@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "a-note",
+  "vimMode": true,
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true
+}

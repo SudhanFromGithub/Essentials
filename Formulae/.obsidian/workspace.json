@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34ef7a35cd7a763d",
+        "id": "1d58d8e6f4285d7f",
         "type": "tabs",
         "children": [
           {
-            "id": "2fe4e16a396392ec",
+            "id": "60c8eb04cbd46bc3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fe4e16a396392ec",
+  "active": "fa18082e82c4c9ed",
   "lastOpenFiles": [
     "fetch-contents-in-based-on-given-arguments.md",
     "fetch-only-numbers-from-the-cell.md",
