@@ -9,4 +9,4 @@ This script enters today's date when !dt is typed
 >}
 >```
 
-Tags: 
+Tags: [[ahk]]
