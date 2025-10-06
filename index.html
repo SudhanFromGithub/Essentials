@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;EPUB.js Reader&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>#viewer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #ccc;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-button {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;EPUB.js Reader&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="viewer"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button id="prev" class="nav-button"&gt;‹ Previous&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button id="next" class="nav-button"&gt;Next ›&lt;/button&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const book = ePub("<a href="https://github.com/SudhanFromGithub/Essentials/blob/main/books/Harry%20Potter%20and%20the%20Sorcerer's%20Stone%20--%20by%20J_K_%20Rowling%20--%20Harry%20Potter%2C%20%231%2C%20New%20York%2C%20USA%2C%201998-10%20--%20Arthur%20A_%20Levine%20Books%20--%209780590353403%20--%20b424ed507af2feca5f7f830284e3b29c%20--%20Anna%E2%80%99s%20Archive.epub">https://github.com/SudhanFromGithub/Essentials/blob/main/books/Harry%20Potter%20and%20the%20Sorcerer's%20Stone%20--%20by%20J_K_%20Rowling%20--%20Harry%20Potter%2C%20%231%2C%20New%20York%2C%20USA%2C%201998-10%20--%20Arthur%20A_%20Levine%20Books%20--%209780590353403%20--%20b424ed507af2feca5f7f830284e3b29c%20--%20Anna’s%20Archive.epub</a>"); // Replace with your EPUB file URL</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const rendition = book.renderTo("viewer", {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: "100%",</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 600,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>spread: "always"</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>rendition.display();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("next").addEventListener("click", () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>rendition.next();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("prev").addEventListener("click", () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>rendition.prev();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
