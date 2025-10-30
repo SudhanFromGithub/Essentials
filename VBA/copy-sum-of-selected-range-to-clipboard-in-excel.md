@@ -1,5 +1,7 @@
 This VBA copies the sum of the selected cells in excel
 
+For Windows:
+
 >[!important] VBA
 >```
 >#If VBA7 Then
@@ -51,6 +53,40 @@ This VBA copies the sum of the selected cells in excel
 >    GlobalUnlock hMem
 >    SetClipboardData CF_UNICODETEXT, hMem
 >    CloseClipboard
+>
+>End Sub
+>```
+
+For Mac OS:
+
+>[!important] VBA
+>```
+>>Sub CopySumOfSelectionToClipboard()
+>   Dim rng As Range
+>   Dim total As Double
+>   Dim textData As String
+>   Dim script As String
+>
+>   ' Get selected range
+>   On Error Resume Next
+>   Set rng = Selection
+>   On Error GoTo 0
+>
+>   ' Check if range is selected
+>   If rng Is Nothing Then
+>       MsgBox "?? No cells selected.", vbExclamation, "Sum to Clipboard"
+>       Exit Sub
+>   End If
+>
+>   ' Calculate sum of selection
+>   total = Application.WorksheetFunction.Sum(rng)
+>   textData = CStr(total)
+>
+>   ' Create AppleScript to copy textData to clipboard
+>   script = "set the clipboard to """ & textData & """"
+>
+>   ' Run the AppleScript from VBA
+>   MacScript script
 >
 >End Sub
 >```
