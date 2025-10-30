@@ -1,4 +1,4 @@
 "Everything seems cringy, Until it's yours."
-								- Vishali
+									- Vishali
 
 Tags:[[vishali]],[[quotes]]
