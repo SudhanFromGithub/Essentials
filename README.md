@@ -43,9 +43,11 @@ Essentials is a curated repository of useful AutoHotkey scripts, Excel formulae,
 
 1. **Clone this repository:**
     
-    bash
-    
-    `git clone https://github.com/SudhanFromGithub/Essentials.git`
+>[!important] cli
+>```
+>git clone https://github.com/SudhanFromGithub/Essentials.git`
+>```
+
     
 2. **Explore the folders:** Find the script, macro, or formula you need.
     
