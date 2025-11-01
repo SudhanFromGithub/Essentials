@@ -19,5 +19,5 @@ Then list the filename inside the folder via
 
 >[!important] Terminal Commands 
 >```
->gdrive files list --parent [folder_id] --limit 1000
+>gdrive files list --parent [folder_id] --max 1000
 >```
