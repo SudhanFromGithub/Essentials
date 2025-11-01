@@ -6,9 +6,15 @@ I want to get the content names inside the google drive folder
 
 I planned to get the filenames of the content via terminal
 
-So I installed google drive cli 
+So I installed google drive cli via brew
 
-After i installation of google drive cli via this [steps](https://github.com/glotlabs/gdrive/blob/main/docs/create_google_api_credentials.md)
+>[!important] cli
+>```
+>brew install gdrive
+>```
+
+
+After i installation of google drive CLIthis [steps](https://github.com/glotlabs/gdrive/blob/main/docs/create_google_api_credentials.md)
 
 >[!important] cli
 >```
