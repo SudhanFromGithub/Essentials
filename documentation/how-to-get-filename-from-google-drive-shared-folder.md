@@ -13,7 +13,6 @@ So I installed google drive cli via brew
 >brew install gdrive
 >```
 
-
 After i installation of google drive CLI. I followed this [steps](https://github.com/glotlabs/gdrive/blob/main/docs/create_google_api_credentials.md).
 
 Then list the filename inside the folder via
