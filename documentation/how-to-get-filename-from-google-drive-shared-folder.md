@@ -21,3 +21,5 @@ Then list the filename inside the folder via
 >```
 >gdrive files list --parent [folder_id] --max 1000
 >```
+
+Tags : [[Terminal]], [[Mac]], [[Brew]] 

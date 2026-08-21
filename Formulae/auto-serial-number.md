@@ -5,4 +5,4 @@ This formula gives serial number based on the values in next column
 >=IF(B2=0,"",ROW()-1) 
 >```
 
-Tags:[[formulae]]
+Tags:[[formulae]], [[Excel]]

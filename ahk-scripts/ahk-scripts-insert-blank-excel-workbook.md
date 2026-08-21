@@ -34,3 +34,5 @@ This script insert blank excel worksheet when ctrl shift e is pressed
 >    xl := wb := "" 
 >}
 >```
+
+Tags : [[ahk]]

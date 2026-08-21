@@ -8,3 +8,5 @@ This formula fetches only numbers from the cell
 Example:
 
 If In cell A2 = Hello, I am Master-09 ==> It fetches only 09 from the cell
+
+Tags : [[Excel]], [[formulae]] 

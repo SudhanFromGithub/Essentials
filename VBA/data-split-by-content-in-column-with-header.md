@@ -96,3 +96,5 @@ Note : Header name is case-sensitive
 >     Next value
 > End Sub
 >```
+
+Tags : [[Excel]], [[VBA]] 

@@ -1,0 +1,10 @@
+- [ ] Give treat to friends 
+- [ ] Buy gift for Ajith - Rs:2000
+- [ ] Buy some fine vests and inner wear 
+- [ ] Buy fine top to bottom clothes for Vishali
+- [ ] Buy crocs for Mom
+- [ ] Earn my first one lakh
+- [ ] Buy 
+- [ ] Earn my first million
+- [ ] Buy some gold ornaments for Vishali
+- [ ] Do some nice things for Rohan (Maybe!!!!)

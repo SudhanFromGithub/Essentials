@@ -90,3 +90,5 @@ For Mac OS:
 >
 >End Sub
 >```
+
+Tags : [[Excel]], [[VBA]] 

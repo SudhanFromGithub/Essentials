@@ -7,4 +7,4 @@ Example : 1.One ==> One
 >=RIGHT(A6, LEN(A6) - SEARCH(".", A6))
 >```
 
-Tags:[[formulae]]
+Tags:[[formulae]], [[Excel]]

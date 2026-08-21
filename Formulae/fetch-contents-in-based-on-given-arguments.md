@@ -14,4 +14,6 @@ A3 ==> How?
 
 If you apply this formula for the range A1:A3 and set arguments to "o"
 
-It will fetch values in cell A1 and A3 as it has "o" in its cells 
+It will fetch values in cell A1 and A3 as it has "o" in its cells  
+
+Tags : [[Excel]], [[formulae]]

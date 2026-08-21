@@ -35,7 +35,6 @@ Essentials is a curated repository of useful AutoHotkey scripts, Excel formulae,
 - VBA macros for repeating complex tasks in spreadsheets.
     
 - A growing collection of inspirational and fun quotes.
-    
 
 ---
 
